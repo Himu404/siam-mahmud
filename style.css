@@ -1,0 +1,99 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+#profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+#profile-img:hover {
+    transform: scale(1.05);
+}
+
+h1 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+p {
+    color: #666;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.email-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.email-link:hover {
+    text-decoration: underline;
+}
+
+.about-me {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-me:hover {
+    transform: translateY(-5px);
+}
+
+.about-me p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.skills {
+    margin-top: 20px;
+}
+
+.skills p {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.skills p:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .about-me {
+        padding: 15px;
+    }
+
+    .skills p {
+        padding: 6px 10px;
+    }
+}
